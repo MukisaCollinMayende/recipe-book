@@ -31,7 +31,7 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("RecipeBook server running successfully");
 });
 
 app.listen(5000, () => {
